@@ -1,0 +1,30 @@
+{
+  "name": "arabic.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/elkebirmed/Arabic.js",
+  "authors": [
+    "Mohamed Elkebir <elkebir.med@gmail.com>"
+  ],
+  "description": "Creative methods to work with an Arabic strings.",
+  "main": "arabic.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "arabic",
+    "string",
+    "rtl",
+    "methods",
+    "javastring"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
