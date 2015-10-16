@@ -1,0 +1,26 @@
+{
+  "name": "arabic.js",
+  "version": "0.0.1",
+  "description": "Creative methods to work with an Arabic strings.",
+  "main": "arabic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkebirmed/Arabic.js.git"
+  },
+  "keywords": [
+    "arabic",
+    "string",
+    "rtl",
+    "methods",
+    "javascript"
+  ],
+  "author": "Mohamed Elkebir <elkebir.med@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elkebirmed/Arabic.js/issues"
+  },
+  "homepage": "https://github.com/elkebirmed/Arabic.js#readme"
+}
