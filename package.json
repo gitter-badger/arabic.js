@@ -4,7 +4,7 @@
   "description": "Creative methods to work with an Arabic strings.",
   "main": "arabic.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
