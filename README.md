@@ -1,6 +1,8 @@
 # Arabic.js [![BuildStatus](https://travis-ci.org/elkebirmed/arabic.js.svg?branch=master)](https://travis-ci.org/elkebirmed/arabic.js)
 Creative methods to work with an Arabic strings.
 
+Home page: [Arabic.js](http://elkebirmed.github.io/arabic.js/)
+
 ---
 
 # How to use it
