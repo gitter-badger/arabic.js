@@ -4,7 +4,7 @@
   "description": "Creative methods to work with an Arabic strings.",
   "main": "arabic.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/elkebirmed/Arabic.js/issues"
   },
-  "homepage": "http://elkebirmed.github.io/arabic.js/"
+  "homepage": "http://elkebirmed.github.io/arabic.js/",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-uglify": "^1.4.2"
+  }
 }
