@@ -2,7 +2,7 @@
   "name": "arabic.js",
   "version": "0.0.1",
   "description": "Creative methods to work with an Arabic strings.",
-  "main": "arabic.js",
+  "main": "dist/arabic.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },

@@ -6,7 +6,7 @@
     "Mohamed Elkebir <elkebir.med@gmail.com>"
   ],
   "description": "Creative methods to work with an Arabic strings.",
-  "main": "arabic.js",
+  "main": "dist/arabic.js",
   "moduleType": [
     "amd",
     "globals",
