@@ -73,6 +73,14 @@ A('_عالم').known().value; // 'العالم'
 A('*عالم').known().value; // 'العالم'
 ```
 
+### - removeVowels()
+
+Remove vowels from the value.
+
+```js
+A('مَرْحَباً بِالعَالَم').removeVowels().value; // 'مرحبا بالعالم'
+```
+
 ### - trim()
 
 Remove spaces at the start and the end of the value.
@@ -82,14 +90,6 @@ Note how `clean()` can remove inner spaces too.
 ```js
 A('    مرحبا     بالعالم    ').trim().value; // 'مرحبا    بالعالم'
 A('    مرحبا     بالعالم    ').clean().value; // 'مرحبا بالعالم'
-```
-
-### - removeVowels()
-
-Remove vowels from the value.
-
-```js
-A('مَرْحَباً بِالعَالَم').removeVowels().value; // 'مرحبا بالعالم'
 ```
 
 ---
