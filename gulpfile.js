@@ -11,6 +11,12 @@ var DEST_DIR = 'dist',
     SRC_FILE = 'src/arabic.js';
 
 
+gulp.task('copy', function() {
+  return gulp.src(SRC_FILE)
+    .pipe(gulp.dest(DEST_DIR));
+});
+
+
 // Linting the main JavaScript file with JsHint,
 // and compress it with Uglify.
 gulp.task('js', function() {
@@ -24,4 +30,4 @@ gulp.task('js', function() {
 
 
 // Tasks
-gulp.task('build', ['js']);
+gulp.task('build', ['js', 'copy']);
