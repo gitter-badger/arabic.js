@@ -11,6 +11,7 @@ var DEST_DIR = 'dist',
     SRC_FILE = 'src/arabic.js';
 
 
+// Copy main file from src to dist.
 gulp.task('copy', function() {
   return gulp.src(SRC_FILE)
     .pipe(gulp.dest(DEST_DIR));
