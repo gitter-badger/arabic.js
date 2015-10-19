@@ -10,17 +10,13 @@ var DEST_DIR = 'dist',
     MIN_FILE = 'arabic.min.js'
     SRC_FILE = 'src/arabic.js';
 
-// Linting the main JavaScript file with JsHint.
-gulp.task('lint', function() {
+
+// Linting the main JavaScript file with JsHint,
+// and compress it with Uglify.
+gulp.task('js', function() {
   return gulp.src(SRC_FILE)
     .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
-
-// Compressing the main JavaScript file with Uglify.
-gulp.task('compress', function() {
-  return gulp.src(SRC_FILE)
+    .pipe(jshint.reporter('default'))
     .pipe(uglify())
     .pipe(rename(MIN_FILE))
     .pipe(gulp.dest(DEST_DIR));
@@ -28,4 +24,4 @@ gulp.task('compress', function() {
 
 
 // Tasks
-gulp.task('build', ['lint', 'compress']);
+gulp.task('build', ['js']);
