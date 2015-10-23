@@ -150,5 +150,3 @@
   }
 
 }.call(this));
-
-console.log(A('hhh خخخخ ').getArabic());
