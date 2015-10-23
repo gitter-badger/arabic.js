@@ -35,6 +35,15 @@ A('مَرْحَباً بِالعَالَم abc    ').getArabic().removeVowels().
 
 # API
 
+### - back()
+
+Get the precedence value, and remove the current value if `true` is defined.
+
+```js
+A('مَرْحَباً بِالعَالَم abc    ').removeVowels().clean().getArabic().back().value; // 'مرحبا بالعالم abc'
+A('مَرْحَباً بِالعَالَم abc    ').removeVowels().clean().getArabic().back(true).back().value; // 'مَرْحَباً بِالعَالَم abc    '
+```
+
 ### - clean()
 
 Replace additional white spaces with one space character, and remove white spaces at the start and the end of the value.
