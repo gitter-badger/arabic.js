@@ -15,8 +15,12 @@
 
     // Object constructor
     var A = function( value, back ) {
-      this.value = value;
-      if (this.value === null) this.value = this;
+
+      if (value === null || value === undefined) {
+        this.value = '';
+      } else {
+        this.value = value.toString();
+      }
 
       if (back === undefined) {
         this.tree = [this.value];
@@ -103,7 +107,7 @@
       known: function() {
         var back, value;
         back = this.tree.push(this.value);
-        value = 'ال' + this.value.replace(/^[^\u0621-\u064A]/gm, '');
+        value = 'ال' + this.value.replace(/^[^\u0621-\u064A]+/gm, '');
         return new A(value, this.tree);
       },
 
@@ -121,11 +125,7 @@
       trim: function() {
         var back, value;
         back = this.tree.push(this.value);
-        if (typeof String.prototype.trim === 'undefined') {
-          value = this.value.replace(/(^\s*|\s*$)/gm, '');
-        } else {
-          value = this.value.trim();
-        }
+        value = this.value.trim();
         return new A(value, this.tree);
       },
 
