@@ -1,12 +1,12 @@
 {
   "name": "arabic.js",
   "version": "0.0.2",
-  "homepage": "http://elkebirmed.github.io/arabic.js/",
+  "homepage": "http://arably.github.io/arabic.js/",
   "authors": [
     "Mohamed Elkebir <elkebir.med@gmail.com>"
   ],
   "description": "Creative methods to work with an Arabic strings.",
-  "main": "dist/arabic.js",
+  "main": "dist/arabic.min.js",
   "moduleType": [
     "amd",
     "globals",
@@ -25,6 +25,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "coverage",
+    "local"
   ]
 }

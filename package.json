@@ -2,13 +2,13 @@
   "name": "arabic.js",
   "version": "0.0.2",
   "description": "Creative methods to work with an Arabic strings.",
-  "main": "dist/arabic.js",
+  "main": "dist/arabic.min.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elkebirmed/Arabic.js.git"
+    "url": "git+https://github.com/arably/arabic.js.git"
   },
   "keywords": [
     "arabic",
@@ -20,9 +20,9 @@
   "author": "Mohamed Elkebir <elkebir.med@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elkebirmed/Arabic.js/issues"
+    "url": "https://github.com/arably/arabic.js/issues"
   },
-  "homepage": "http://elkebirmed.github.io/arabic.js/",
+  "homepage": "http://arably.github.io/arabic.js/",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
