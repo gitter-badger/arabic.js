@@ -2,7 +2,7 @@
 
 
   // Arabic.js 0.0.2
-  // http://elkebirmed.github.io/arabic.js/
+  // http://arably.github.io/arabic.js/
   // (c) 2015 Mohamed Elkebir <elkebir.med@gmail.com>
   // Arabic.js may be freely distributed under the MIT license.
 
