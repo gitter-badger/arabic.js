@@ -2,7 +2,7 @@
   "name": "arabic.js",
   "version": "0.0.2",
   "description": "Creative methods to work with an Arabic strings.",
-  "main": "dist/arabic.js",
+  "main": "dist/arabic.min.js",
   "scripts": {
     "test": "gulp test"
   },
